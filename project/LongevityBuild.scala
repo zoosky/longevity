@@ -74,7 +74,7 @@ object LongevityBuild extends Build with BuildSettings {
   lazy val emblem = Project(
     id = "emblem",
     base = file("emblem"),
-    settings = buildSettings :+ (version := "0.0.0")
+    settings = buildSettings :+ (version := "0.0.1")
   )
 
   lazy val longevity = Project(
